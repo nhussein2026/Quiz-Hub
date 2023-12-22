@@ -1,0 +1,4 @@
+const quizData = {
+    "question: ": " ",
+    "options": [" ", " ", " "]
+}
