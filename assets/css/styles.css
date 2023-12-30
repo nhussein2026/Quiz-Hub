@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    height: 95px;
+    width: auto;
+    border-radius: 5px;
+    margin-top: -16px;
+    background-color: red;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links ul{
+    display: flex;
+}
+.nav-links ul li {
+    margin: 15px;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px solid ;
+}
+.hero {
+
+}
+footer {
+    height: 100px;
+    background-color: rgb(0, 255, 42);
+}

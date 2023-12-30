@@ -1,4 +1,0 @@
-const quizData = {
-    "question: ": " ",
-    "options": [" ", " ", " "]
-}
