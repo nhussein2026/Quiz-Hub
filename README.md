@@ -49,4 +49,7 @@ QuizHub is an interactive and real-time quiz platform designed for classroom eng
    - Summarize the benefits of QuizHub for fostering classroom engagement.
    - Mention any potential future enhancements, such as additional quiz types or integration with learning management systems.
 
-Remember to add your personal touch and creativity to the project. Feel free to experiment with colors, animations, and other design elements to make QuizHub visually appealing. Good luck with your project! If you have any specific questions while coding or need further assistance, don't hesitate to ask.
+6. **Colors**
+- dark green >>  #3e6e7b
+- orange >>      #3e6e7b
+- light white >> #e0e2ef

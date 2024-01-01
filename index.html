@@ -7,6 +7,10 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
 
     <title>QuizHub </title>
 </head>
@@ -23,7 +27,7 @@
                     <a href="">Create quiz</a>
                 </li>
                 <li>
-                    <a href="">Jion Quiz</a>
+                    <a href="#">Jion Quiz</a>
                 </li>
                 <li>
                     <a href="">About QuizHub</a>
@@ -37,7 +41,21 @@
 
     <!-- hero section -->
     <div class="hero">
+        <div class="slider">
+            <div class="slide" style="background-image: url(./assets/images/quiz-slide2.jpg);"></div>
+            <div class="slide" style="background-image: url(./assets/images/quiz-contests-slide1.jpg);"></div>
+            <div class="slide" style="background-image: url(./assets/images/quiz-slide2.jpg);"></div>
+            <div class="slide" style="background-image: url(./assets/images/quiz-contests-slide1.jpg);"></div>
+            <div class="slide" style="background-image: url(./assets/images/quiz-slide2.jpg);"></div>
+            <div class="slide" style="background-image: url(./assets/images//quiz-contests-slide1.jpg);"></div>
+        </div>
 
+        <!-- buttons to move slides -->
+        <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
+        <button class="next-btn" onclick="nextSlide()">&#10095;</button>
+
+
+        <div class="dots-container"></div>
     </div>
 
     <!-- content -->
@@ -46,7 +64,7 @@
     </div>
     <div class="to-top">
         <a href="#top">
-            <img src="./assets/svg/to-top.svg" alt="SVG image" width="50" height="50">
+            <img src="./assets/svg/to-top.svg" id="to-top-svg" alt="SVG image" width="50" height="50">
         </a>
     </div>
     <!-- footer -->
@@ -80,7 +98,7 @@
     <!-- Your quiz interface HTML goes here -->
 
     <!-- <a href="leaderboard.html">View Leaderboard</a> -->
-
+    <script src="./assets/js/slide.js"></script>
     <script src="quizData.js"></script>
     <script src="app.js"></script>
 
