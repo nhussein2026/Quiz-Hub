@@ -5,6 +5,7 @@ body {
     color: #f0ae65;
 
 }
+
 .navbar {
     width: auto;
     background-color: #3e6e7b;
@@ -16,11 +17,13 @@ body {
     justify-content: center;
     align-items: center;
 }
-.nav-links ul{
+
+.nav-links ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .nav-links ul li {
     margin: 15px;
     list-style: none;
@@ -40,7 +43,7 @@ body {
 }
 
 .nav-links ul li:active {
-  color: red;
+    color: red;
 }
 
 /* hero sectio */
@@ -65,7 +68,8 @@ body {
 
 }
 
-.prev-btn, .next-btn {
+.prev-btn,
+.next-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -89,6 +93,7 @@ body {
     text-align: center;
     margin-top: 10px;
 }
+
 .dot {
     cursor: pointer;
     background-color: #979797;
@@ -119,7 +124,9 @@ body {
 #to-top-svg {
     color: #f0ae65;
 }
+
 footer {
+    bottom: 0;
     position: relative;
     background-color: #3e6e7b;
     padding: 20px;
@@ -151,14 +158,17 @@ footer a:hover {
 
 .last-text {
     /* margin-top: 20px; */
-    padding: 2% 5%; /* Adjust as needed */
+    padding: 2% 5%;
+    /* Adjust as needed */
 }
 
 .made-by-text {
     font-size: 1.2em;
     font-weight: 600;
-    color: #555; /* Adjust the color as needed */
-    margin-bottom: 0; /* Remove any default margin */
+    color: #555;
+    /* Adjust the color as needed */
+    margin-bottom: 0;
+    /* Remove any default margin */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -172,26 +182,49 @@ footer a:hover {
 
 /* Responsive Styles */
 @media screen and (max-width: 600px) {
+
     .hero {
-        max-width: 100%;
-        margin: 10px;
+        position: relative;
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
     }
-    
+
     .slide {
         height: 200px;
     }
+
+    .prev-btn,
+    .next-btn {
+        font-size: 30px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .footer-content {
         flex-direction: column;
-        
+
     }
 
     .footer-section {
-        max-width: none; /* Allow full width on smaller screens */
+        max-width: none;
+        /* Allow full width on smaller screens */
         margin-bottom: 1em;
     }
 
     .made-by-text {
-        position: static; /* Reset position for smaller screens */
+        position: static;
+        /* Reset position for smaller screens */
         transform: none;
     }
 }
