@@ -50,7 +50,7 @@ body {
 .hero {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 50em;
     margin: auto;
     overflow: hidden;
 }
@@ -186,7 +186,7 @@ footer a:hover {
     .hero {
         position: relative;
         width: 100%;
-        max-width: 300px;
+        max-width: 24em;
         margin: auto;
     }
 
