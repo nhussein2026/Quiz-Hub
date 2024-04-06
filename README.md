@@ -1,5 +1,7 @@
 # QuizHub
 
+-- under development 
+
 **Overview:**
 QuizHub is an interactive and real-time quiz platform designed for classroom engagement. It provides a seamless experience for both presenters and students, fostering active participation and friendly competition.
 
